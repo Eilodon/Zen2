@@ -1,0 +1,8 @@
+{
+  "name": "MindfulOS Quantum",
+  "description": "A PWA Zen Master with Feature-Sliced Design",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}

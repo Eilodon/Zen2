@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindfulOS Quantum</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clayOrange: '#D87C4A',
+            ricePaper: '#FFF8E7',
+            quantumBlue: '#2196F3',
+            zenDark: '#2D2A26',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Noto Serif', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react-dom": "https://aistudiocdn.com/react-dom@^19.2.1",
+    "react-dom/client": "https://aistudiocdn.com/react-dom@^19.2.1/client",
+    "scheduler": "https://aistudiocdn.com/scheduler@^0.23.2",
+    "scheduler/": "https://aistudiocdn.com/scheduler@^0.23.2/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.32.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.559.0",
+    "three": "https://aistudiocdn.com/three@^0.170.0",
+    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.0.0-rc.3",
+    "@react-three/drei": "https://aistudiocdn.com/@react-three/drei@^9.120.0",
+    "tone": "https://aistudiocdn.com/tone@^15.0.4",
+    "dexie": "https://aistudiocdn.com/dexie@^4.0.1",
+    "zustand": "https://aistudiocdn.com/zustand@^4.5.0"
+  }
+}
+</script>
+</head>
+<body class="bg-ricePaper text-zenDark h-screen w-screen overflow-hidden">
+  <div id="root" class="h-full w-full"></div>
+</body>
+</html>
